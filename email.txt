@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:sch=
+emas-microsoft-com:office:office">
+<head>=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">=20
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+<meta name=3D"x-apple-disable-message-reformatting">=20
+<!-- START Marketo Variables -->=20
+<!-- Global Variables-->        =20
+<!-- Background Variables-->         =20
+<!-- Content Variables-->                           =20
+<!-- Primary Button Variables-->     =20
+<!-- Secondary Button Variables-->     =20
+<!-- Tertiary Button Variables-->      =20
+<!-- Footer Variables --> =20
+<!-- END Marketo Variables -->=20
+<title>OneSignal</title>=20
+<style>
+=09=09@media screen {
+=09=09=09@font-face {
+=09=09=09=09font-family: 'Nunito Sans';
+=09=09=09=09font-style: normal;
+=09=09=09=09font-weight: 400;
+=09=09=09=09font-stretch: 100%;
+=09=09=09=09font-display: swap;
+=09=09=09=09src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYB=
+Iv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU=
+4G1ilXvlUlIfM0qh1d65g.woff2) format('woff2');
+=09=09=09=09unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U=
++A640-A69F, U+FE2E-FE2F;
+=09=09=09}
+=09=09}
+=09</style>=20
+<style media=3D"all" type=3D"text/css">
+=09=09/* -------------------------------------
+=09BUTTONS EMBEDDED CSS
+=09------------------------------------- */
+
+=09=09@media all {
+=09=09=09.emailButton.btn-primary table td:hover {
+=09=09=09=09background-color: #3a3db3 !important;
+=09=09=09}
+
+=09=09=09.emailButton.btn-primary a:hover {
+=09=09=09=09background-color: #3a3db3 !important;
+=09=09=09=09border-color: #3a3db3 !important;
+=09=09=09}
+
+=09=09=09.emailButton.btn-secondary table td:hover {
+=09=09=09=09background-color: #ececfc !important;
+=09=09=09}
+
+=09=09=09.emailButton.btn-secondary a:hover {
+=09=09=09=09background-color: #ececfc !important;
+=09=09=09}
+
+=09=09=09.emailButton.btn-tertiary a:hover {
+=09=09=09=09text-decoration: underline !important;
+=09=09=09}
+
+=09=09=09.btn-primary table td:hover {
+=09=09=09=09background-color: #3a3db3 !important;
+=09=09=09}
+
+=09=09=09.btn-primary a:hover {
+=09=09=09=09background-color: #3a3db3 !important;
+=09=09=09=09border-color: #3a3db3 !important;
+=09=09=09}
+
+=09=09=09.btn-secondary table td:hover {
+=09=09=09=09background-color: #ececfc !important;
+=09=09=09}
+
+=09=09=09.btn-secondary a:hover {
+=09=09=09=09background-color: #ececfc !important;
+=09=09=09}
+
+=09=09=09.btn-tertiary a:hover {
+=09=09=09=09text-decoration: underline !important;
+=09=09=09}
+
+=09=09}
+
+=09=09@media only screen and (max-width: 600px) {
+
+=09=09=09table[class=3Dbody] .btn table,
+=09=09=09table[class=3Dbody] .btn a {
+=09=09=09=09min-width: 100% !important;
+=09=09=09=09width: 100% !important;
+=09=09=09}
+
+=09=09=09.t100 {
+=09=09=09=09width: 100% !important;
+=09=09=09=09float: none !important;
+=09=09=09}
+
+=09=09=09.mimg100 img,
+=09=09=09.mimg100 {
+=09=09=09=09width: 100% !important;
+=09=09=09=09height: auto !important;
+=09=09=09}
+
+=09=09=09.mimg50 img,
+=09=09=09.mimg50 {
+=09=09=09=09width: 50% !important;
+=09=09=09=09height: auto !important;
+=09=09=09}
+
+=09=09=09.column {
+=09=09=09=09display: block !important;
+=09=09=09=09width: 100% !important;
+=09=09=09}
+
+=09=09}
+
+=09=09@media only screen and (max-width: 480px) {
+=09=09=09.emailButton {
+=09=09=09=09max-width: 600px !important;
+=09=09=09=09width: 100% !important;
+=09=09=09=09display: block !important;
+=09=09=09=09text-align: center !important;
+=09=09=09}
+
+
+=09=09}
+=09</style>=20
+<style media=3D"all" type=3D"text/css">
+=09=09/* -------------------------------------
+=09TYPOGRAPHY EMBEDDED CSS
+------------------------------------- */
+=09=09@media all {}
+
+=09=09@media only screen and (max-width: 600px) {
+
+=09=09=09table[class=3Dbody] h1,
+=09=09=09table[class=3Dbody] h2,
+=09=09=09table[class=3Dbody] h3,
+=09=09=09table[class=3Dbody] h4 {
+=09=09=09=09font-weight: 600 !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] h1 {
+=09=09=09=09font-size: 36px !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] h2 {
+=09=09=09=09font-size: 24px !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] h3 {
+=09=09=09=09font-size: 18px !important;
+=09=09=09}
+
+=09=09}
+=09</style>=20
+<style media=3D"all" type=3D"text/css">
+=09=09/* -------------------------------------
+=09CARDS EMBEDDED CSS
+------------------------------------- */
+=09=09@media all {}
+
+=09=09@media only screen and (max-width: 600px) {
+
+=09=09=09.card {
+=09=09=09=09padding-bottom: 40px !important;
+=09=09=09=09margin-bottom: 0 !important;
+=09=09=09}
+
+=09=09}
+=09</style>=20
+<style media=3D"all" type=3D"text/css">
+=09=09/* -------------------------------------
+=09HERO EMBEDDED CSS
+------------------------------------- */
+=09=09@media all {}
+
+=09=09@media only screen and (max-width: 600px) {}
+=09</style>=20
+<style media=3D"all" type=3D"text/css">
+=09=09@media only screen and (max-width: 600px) {
+
+=09=09=09table[class=3Dbody] .content,
+=09=09=09table[class=3Dbody] .wrapper {
+=09=09=09=09padding: 0 !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] .container {
+=09=09=09=09padding: 0 !important;
+=09=09=09=09width: 100% !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] .card-content {
+=09=09=09=09padding: 24px !important;
+=09=09=09}
+
+=09=09=09table[class=3Dbody] .metric-label {
+=09=09=09=09font-size: 14px !important;
+=09=09=09}
+
+=09=09=09.footer {
+=09=09=09=09padding-top: 24px;
+=09=09=09}
+
+=09=09=09a[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important;
+=09=09=09=09text-decoration: none !important;
+=09=09=09=09font-size: inherit !important;
+=09=09=09=09font-family: inherit !important;
+=09=09=09=09font-weight: inherit !important;
+=09=09=09=09line-height: inherit !important;
+=09=09=09}
+=09=09}
+=09</style>=20
+<!--[if gte mso 9]>
+=09<xml>
+=09  <o:OfficeDocumentSettings>
+=09=09<o:AllowPNG />
+=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+=09  </o:OfficeDocumentSettings>
+=09</xml>
+=09<![endif]-->=20
+</head>=20
+<body style=3D"background-color: #F6F7F8; font-family: 'Nunito Sans', 'Helv=
+etica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 18px; he=
+ight: 100%; line-height: 1.666; margin: 0; padding: 0; width: 100%; -ms-tex=
+t-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing=
+: antialiased;"><style type=3D"text/css">div#emailPreHeader{ display: none =
+!important; }</style><div id=3D"emailPreHeader" style=3D"mso-hide:all; visi=
+bility:hidden; opacity:0; color:transparent; mso-line-height-rule:exactly; =
+line-height:0; font-size:0px; overflow:hidden; border-width:0; display:none=
+ !important;">Join our upcoming webinar hosted with Mixpanel</div>=20
+<table class=3D"body" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=
+=3D"presentation" style=3D"margin: 0 auto; max-width: 600px; box-sizing: bo=
+rder-box; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; wi=
+dth: 100%; border-collapse: separate;" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td style=3D"box-sizing: border-box; font-family: 'Nunito Sans', 'Helvetica=
+ Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 18px; line-he=
+ight: 1.666;"> </td>=20
+<td class=3D"container mktoContainer" id=3D"wrapper" style=3D"box-sizing: b=
+order-box; font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', Helve=
+tica, Arial, sans-serif; font-size: 18px; line-height: 1.666; display: bloc=
+k; max-width: 600px; padding: 0; margin: 0 auto; width: auto;">
+<table class=3D"header mktoModule" id=3D"l1l" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; =
+min-width: 100%; margin-bottom: 24px; margin-top: 24px; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; width: 100%; border-collapse: separate;" width=
+=3D"100%">=20
+<tbody>=20
+<tr>=20
+<td class=3D"align-center" style=3D"box-sizing: border-box; font-family: 'N=
+unito Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; f=
+ont-size: 18px; line-height: 1.666; text-align: center;" align=3D"center">=
+=20
+<div class=3D"mktoImg" id=3D"kdf3299" mktolockimgsize=3D"false" mktolockimg=
+style=3D"true">
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbQP8SLpLnnSsnZMl7qaiTgpx7=
+8LBZj-PvVOrIk5ZoU5wF0-sz-QYC-sKtZGCDAbWxgE=3D"
+> <img style=3D"-ms-interpolation-mode: bicubic; max-width: 100%; vertical-=
+align: middle;" src=3D"https://learn.onesignal.com/rs/828-DRE-076/images/On=
+eSignal-Logo--23bc87eb-43ed-4f95-aa5b-615c8b68a62f.png" height=3D"48" class=
+=3D"logo align-center"></a>
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" class=3D"h=
+ero bg-5 mktoModule" id=3D"hmod1abd61d6b-c8e6-4b07-b93f-8cc441e5e3bf" style=
+=3D"box-sizing: border-box; min-width: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; background-color: #14143C; background-size: cover; backgrou=
+nd-repeat: no-repeat; background-position: center; border-radius: 0; color:=
+=20
+#FFFFFF; padding: 40px 24px; width: 100%; background-image: url('https://le=
+arn.onesignal.com/rs/828-DRE-076/images/bg-4--3f53f0ff-2195-4ce8-bd27-29419=
+27a0c0d.jpg'); border-collapse: separate;" width=3D"100%" bgcolor=3D"#14143=
+C" background=3D"https://learn.onesignal.com/rs/828-DRE-076/images/bg-4--3f=
+53f0ff-2195-4ce8-bd27-2941927a0c0d.jpg">=20
+<tbody>=20
+<tr>=20
+<td align=3D"center" style=3D"box-sizing: border-box; font-family: 'Nunito =
+Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-si=
+ze: 18px; line-height: 44px;"> <h1 class=3D"mktoText" id=3D"vndje9363f7c6c8=
+-ac1c-4020-81bd-c4e0ea38b6d8" align=3D"left" style=3D"font-family: 'Nunito =
+Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; margin:=
+ 0 0 16px; font-size: 36px; font-weight: 800; line-height: 44px; color: #FF=
+FFFF;">Mixpanel + OneSignal: Unifying Product &amp; Marketing Teams</h1> <p=
+ id=3D"cdb43" align=3D"left" style=3D"font-weight: normal; margin: 0; paddi=
+ng: 0; font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', Helvetica=
+, Arial, sans-serif; font-size: 18px; line-height: 1.666; color: #FFFFFF; m=
+argin-bottom: 0;"> <img class=3D"mktoImg icon-calendar" id=3D"iconimgb80aee=
+21-ff74-4f89-8bcd-20f379e506b8" src=3D"https://learn.onesignal.com/rs/828-D=
+RE-076/images/icon-calendar--8d6acc2a-cafc-4d0c-a6a1-b386052e4621.png" alt=
+=3D"Date" height=3D"16" width=3D"16" style=3D"-ms-interpolation-mode: bicub=
+ic; max-width: 100%; vertical-align: baseline; margin-right: 8px;" mktolock=
+imgsize=3D"true" mktolockimgstyle=3D"true"> <span class=3D"mktoText" id=3D"=
+c2db43d2800c11-2d30-4637-ad15-9c7b8acb28c0" align=3D"left" style=3D"font-we=
+ight:=20
+normal; margin: 0; padding: 0; font-family: 'Nunito Sans', 'Helvetica Neue'=
+, 'Helvetica', Helvetica, Arial, sans-serif; font-size: 18px; line-height: =
+1.666; color: #FFFFFF; margin-bottom: 0;">September 12, 2024 at 10AM PT | 1=
+PM ET</span> </p> </td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table class=3D"card mktoModule" id=3D"adfwcrd1f9c6c8f9-4a6d-43dd-b148-9786=
+3f863bcb" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presenta=
+tion" style=3D"box-sizing: border-box; min-width: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; background: #FFFFFF; border-radius: 0; margin-bo=
+ttom: 0px; width: 100%; border-collapse: separate;" width=3D"100%">=20
+<tbody>=20
+<tr>=20
+<td class=3D"card-content" style=3D"box-sizing: border-box; font-family: 'N=
+unito Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; f=
+ont-size: 18px; line-height: 1.666; padding: 24px;">=20
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentatio=
+n" style=3D"width: 100%;" width=3D"100%">=20
+<tbody>=20
+<tr>=20
+<td> <p class=3D"mktoText" id=3D"vwhesqqc20de56d-aa99-47d5-94f4-f2dca215198=
+e" style=3D"color: #051B2C; font-weight: normal; margin: 0; padding: 0; fon=
+t-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, s=
+ans-serif; font-size: 18px; line-height: 1.666; margin-bottom: 24px;">There=
+=E2=80=99s still time to register for our upcoming webinar! Learn how to&nb=
+sp;unite your Product and Marketing teams&nbsp;to&nbsp;drive growth from co=
+llaboration.<br><br>Join our expert speakers, Neha Nathan from Mixpanel and=
+ Julia Poppy from OneSignal, as they explore the importance of aligning pro=
+duct and marketing teams. Through real-world examples and actionable insigh=
+ts, you=E2=80=99ll discover practical strategies strategies for cross-funct=
+ional alignment.<br></p> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"emailButton btn btn-primary mktoText" id=3D"mm4iydwlold88cfa00=
+-b3f0-4095-a48b-06c9eaa1c49e" style=3D"padding: 0px; box-sizing: border-box=
+; font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Ari=
+al, sans-serif; font-size: 16px; line-height: 1.666; border-radius: 4px; te=
+xt-align: left; background-color: #ffffff;" align=3D"left" bgcolor=3D"#ffff=
+ff"><a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbRJMnUItkIC7yE3WNaahHxIuL=
+ZcmXcvOtYYQvqGmZ731AopRpy_kSvts1KyquOJbk1A=3D" style=3D"box-sizing: border-=
+box; border: solid 1px #4346ce; border-radius: 4px; cursor: pointer; displa=
+y: inline-block; font-size: 18px; font-weight: bold; margin: 0; padding: 8p=
+x 24px; text-decoration: none; text-transform: capitalize; background-color=
+: #4346ce; color: #ffffff;" target=3D"_blank"
+>RSVP Here</a></td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"mktoModule t100" id=3D"s2a2a22dka283b6a2-0486-4850-a952-50a284a8804d" =
+style=3D"background: #FFFFFF;">=20
+<tbody>=20
+<tr>=20
+<td> <h2 class=3D"mktoText" id=3D"spktitle262a0734c-fe6c-4d0d-982c-ade07db6=
+a544" align=3D"center" style=3D"font-family: 'Nunito Sans', 'Helvetica Neue=
+', 'Helvetica', Helvetica, Arial, sans-serif; margin: 0 0 16px; font-size: =
+24px; font-weight: 800; line-height: 38px; color: #051B2C;">Our Speakers</h=
+2>=20
+<table width=3D"380" style=3D"width:380px;" align=3D"center" class=3D"t100"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=20
+<tbody>=20
+<tr>=20
+<td style=3D"padding: 16px 0px;" class=3D"mpad">=20
+<!--[if true]>
+<table role=3D"presentation" width=3D"100%" style=3D"all:unset;opacity:0;">
+  <tr>
+<![endif]-->=20
+<!--[if false]></td></tr></table><![endif]-->=20
+<div style=3D"display:table;width:100%;">=20
+<!--[if true]>
+=09<td width=3D"190">
+  <![endif]-->=20
+<!--[if !true]><!-->=20
+<div style=3D"display:table-cell;width:190px" class=3D"column">=20
+<!--<![endif]-->=20
+<table width=3D"160" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"t100" style=3D"width:160px;">=20
+<tbody>=20
+<tr class=3D"t100">=20
+<td style=3D"font-size: 14px; line-height: 1.2em; padding-bottom: 16px; tex=
+t-align: center;" class=3D"False">=20
+<div class=3D"mktoImg" id=3D"kwol9hga984a608a6-deeb-4e5a-81b0-e2620d91fcb0"=
+ mktolockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a><img alt=3D"N.png" src=3D"https://learn.onesignal.com/rs/828-DRE-076/ima=
+ges/N.png" width=3D"64" class=3D"mimg50" style=3D""></a>=20
+</div> </td>=20
+</tr>=20
+<tr style=3D"True">=20
+<td style=3D"font-size: 16px; line-height: 1.2em; padding-bottom: 8px; font=
+-weight: 700; text-align: center; font-family: 'Nunito Sans', 'Helvetica Ne=
+ue', 'Helvetica', Helvetica, Arial, sans-serif;" class=3D"mktoText" id=3D"k=
+dgbvd9240f1f64-e548-4d26-92ee-6eee87315d9e">Neha Nathan</td>=20
+</tr>=20
+<tr style=3D"True">=20
+<td style=3D"padding-bottom:16px; text-align: center;font-size: 16px; color=
+: #051B2C; line-height: 22px; font-family: 'Nunito Sans', 'Helvetica Neue',=
+ 'Helvetica', Helvetica, Arial, sans-serif;" class=3D"mktoText" id=3D"skgw7=
+89emf45ece44-2f55-49c1-97a7-fdd64619da32">Sr. Product Manager,&nbsp;Mixpane=
+l</td>=20
+</tr>=20
+<!--[if gt mso 15]>
+<tr style=3D"font-size:0px;line-height:0px;"><td style=3D"height:0.1pt;">&n=
+bsp;</td></tr>
+<![endif]-->=20
+</tbody>=20
+</table>=20
+<!--[if !true]><!-->=20
+</div>=20
+<!--<![endif]-->=20
+<!--[if true]>
+=09</td>
+  <![endif]-->=20
+<!--[if true]>
+=09<td width=3D"190">
+  <![endif]-->=20
+<!--[if !true]><!-->=20
+<div style=3D"display:table-cell;width:190px" class=3D"column">=20
+<!--<![endif]-->=20
+<table width=3D"160" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"t100" style=3D"width:160px;">=20
+<tbody>=20
+<tr class=3D"t100">=20
+<td style=3D"font-size: 14px; line-height: 1.2em; padding-bottom: 16px; tex=
+t-align: center;" class=3D"False">=20
+<div class=3D"mktoImg" id=3D"kw5drtga923b7e805-4465-4718-9be3-e2862956ac62"=
+ mktolockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a><img src=3D"https://learn.onesignal.com/rs/828-DRE-076/images/julia.popp=
+y.png" width=3D"64" class=3D"mimg50" style=3D""></a>=20
+</div> </td>=20
+</tr>=20
+<tr style=3D"True">=20
+<td style=3D"font-size: 16px; line-height: 1.2em; padding-bottom: 8px; font=
+-weight: 700; text-align: center; font-family: 'Nunito Sans', 'Helvetica Ne=
+ue', 'Helvetica', Helvetica, Arial, sans-serif;" class=3D"mktoText" id=3D"k=
+dsetbnd9e9e2b420-22cc-46a6-b9cc-a6558b75be14">Julia Poppy</td>=20
+</tr>=20
+<tr style=3D"True">=20
+<td style=3D"padding-bottom:16px; text-align: center;font-size: 16px; color=
+: #051B2C; line-height: 22px; font-family: 'Nunito Sans', 'Helvetica Neue',=
+ 'Helvetica', Helvetica, Arial, sans-serif;" class=3D"mktoText" id=3D"skuyt=
+aem140f250c-2b77-4c37-89bb-621c6ea85956">Sr. Product Marketing Manager,&nbs=
+p;OneSignal</td>=20
+</tr>=20
+<!--[if gt mso 15]>
+<tr style=3D"font-size:0px;line-height:0px;"><td style=3D"height:0.1pt;">&n=
+bsp;</td></tr>
+<![endif]-->=20
+</tbody>=20
+</table>=20
+<!--[if !true]><!-->=20
+</div>=20
+<!--<![endif]-->=20
+<!--[if true]>
+=09</td>
+<![endif]-->=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> </td>=20
+</tr>=20
+</tbody>=20
+</table>
+<table cellpadding=3D"0" class=3D"footer mktoModule" id=3D"ftr" cellspacing=
+=3D"0" border=3D"0" role=3D"presentation" style=3D"box-sizing: border-box; =
+min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;=
+ color: #74808B; font-size: 0.75rem; border-collapse: separate;" width=3D"1=
+00%">=20
+<tbody>=20
+<tr style=3D"color: #74808B; font-size: 0.75rem;">=20
+<td class=3D"align-center" style=3D"box-sizing: border-box; font-family: 'N=
+unito Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; l=
+ine-height: 1.666; color: #74808B; font-size: 0.75rem; text-align: center; =
+padding: 24px 0px 24px 0px;" align=3D"center"> <p class=3D"mktoText" id=3D"=
+ftruu" style=3D"font-weight: normal; margin: 0; margin-bottom: 16px; paddin=
+g: 0; font-family: 'Nunito Sans', 'Helvetica Neue', 'Helvetica', Helvetica,=
+ Arial, sans-serif; line-height: 1.666; color: #74808B; font-size: 0.75rem;=
+ display: True;">Love using OneSignal? <a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbZTvBNGRthe3d4xpZmZBBSg6M=
+_ZDBaSXCHaP6go0ODeWLao0ULrUoBpPBvrHl39EpJo=3D" style=3D"box-sizing: border-=
+box; color: #74808B; font-size: 0.75rem; text-decoration: underline;" targe=
+t=3D"_blank"
+>Refer a friend and earn a reward!</a></p>=20
+<table class=3D"social-icons" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" role=3D"presentation" style=3D"box-sizing: border-box; min-width: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #74808B; font-size: 0=
+.75rem; text-align: center; width: 100%; border-collapse: separate;" width=
+=3D"100%" align=3D"center">=20
+<tbody>=20
+<tr style=3D"color: #74808B; font-size: 0.75rem;">=20
+<td style=3D"box-sizing: border-box; font-family: 'Nunito Sans', 'Helvetica=
+ Neue', 'Helvetica', Helvetica, Arial, sans-serif; line-height: 1.666; colo=
+r: #74808B; font-size: 0.75rem; padding-bottom: 24px;">=20
+<div class=3D"mktoImg" id=3D"kw9sfsd" style=3D"display: inline-block;" mkto=
+lockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbStCcXhAyOZn1Sf7Nw6WCmrvC=
+9Pu4MT1-QbtklmnnItQzDaZXoCcABCisABWukZNep4=3D"
+><img style=3D"margin: 0 8px" alt=3D"Twitter" src=3D"https://learn.onesigna=
+l.com/rs/828-DRE-076/images/twitter--968b5fe7-99ee-446a-a257-4d559691a6ef.p=
+ng" width=3D"48"></a>=20
+</div>=20
+<div class=3D"mktoImg" id=3D"kw9rfgg" style=3D"display: inline-block;" mkto=
+lockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbTWoPXZvqAQXJF0DMDy_2ALOK=
+k_KW2PH7khOBkflOgNMLBReV8Zn871EihJSAOLgVQ8=3D"
+><img style=3D"margin: 0 8px" alt=3D"Facebook" src=3D"https://learn.onesign=
+al.com/rs/828-DRE-076/images/facebook--e1b2abfa-7b4a-4b43-8947-9503562c274f=
+.png" width=3D"48"></a>=20
+</div>=20
+<div class=3D"mktoImg" id=3D"kw9mmm" style=3D"display: inline-block;" mktol=
+ockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5Tbc-dK0B2d67OjKAeNazrNJ7Vv=
+HG4yBoNj8gPkGOG-TI5frKe1DSBIMF6GC0rS3CjqnE=3D"
+><img style=3D"margin: 0 8px" alt=3D"Instagram" src=3D"https://learn.onesig=
+nal.com/rs/828-DRE-076/images/instagram--33e28b98-14c4-417c-bb4f-b1e3aaa7b3=
+ce.png" width=3D"48"></a>=20
+</div>=20
+<div class=3D"mktoImg" id=3D"kw9rew" style=3D"display: inline-block;" mktol=
+ockimgsize=3D"true" mktolockimgstyle=3D"true">=20
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbbnnnSG487BlZyJNJ6AXCjhWv=
+2AyezSK3y_eNCbtZcFmulAwV5LsxLxzy56UnDymSoI=3D"
+><img style=3D"margin: 0 8px" alt=3D"Linkedin" src=3D"https://learn.onesign=
+al.com/rs/828-DRE-076/images/linkedin--6caddd0c-7bb9-4a0d-8d00-4892d157f03a=
+.png" width=3D"48"></a>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table> <p class=3D"mktoText" id=3D"sdfjldf" style=3D"font-weight: normal;=
+ margin: 0; margin-bottom: 16px; padding: 0; font-family: 'Nunito Sans', 'H=
+elvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; line-height: 1.6=
+66; color: #74808B; font-size: 0.75rem;">OneSignal, 201 South B Street, Sui=
+te 200, San Mateo, CA 94401</p> <p class=3D"mktoText" id=3D"sjhweir" style=
+=3D"font-weight: normal; margin: 0; padding: 0; font-family: 'Nunito Sans',=
+ 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; line-height: =
+1.666; margin-bottom: 0; color: #74808B; font-size: 0.75rem;">You received =
+this because you subscribed to updates from OneSignal.<br style=3D"color: #=
+74808B; font-size: 0.75rem;">No longer interested? <a href=3D"https://learn=
+.onesignal.com/UnsubscribePage.html?mkt_unsubscribe=3D1&mkt_tok=3DODI4LURSR=
+S0wNzYAAAGVGh5TbVWa8KacvkO5paXuRvAa153m-lL0mThfNHb7_bzLYnVfx_3WsmziQ1lyXPx-=
+tfycKPz7hfwZe-bGGbPF56p0xRgzXNCnzwkDVZnawUYDFQ" style=3D"box-sizing: border=
+-box; color: #74808B; font-size: 0.75rem; text-decoration: underline;">Unsu=
+bscribe or Manage Preferences</a>.</p> </td>=20
+</tr>=20
+</tbody>=20
+</table></td>=20
+<td style=3D"box-sizing: border-box; fontfamily: 'Nunito Sans', 'Helvetica=
+ Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 18px; line-he=
+ight: 1.666;"> </td>=20
+</tr>=20
+</tbody>
+</table> =20
+<a href=3D
+"https://go.onesignal.com/ODI4LURSRS0wNzYAAAGVGh5TbUrmxjb7KVt3xqKUh1NHysYAw=
+Ifi-eVWbj5-xfbEKgp5BXMy1dbxZCt-N-D-3L8fJHI=3D"
+></a>
+<img src=3D"https://go.onesignal.com/trk?t=3D1&mid=3DODI4LURSRS0wNzYAAAGVGh=
+5TbYx84xfzIPxFUFAHChPjQIkqwZ-HZ85nJY3shiXlqemaL-Wh0a7-gYVEe8UQyBq-BK9k9Wj7v=
+JNBQhUBgB-8vRIa0jZoWefxp-J2os1NKzKxiEUHfIEZEGtaN9IqjbSh3Kxg5Ce9cTA" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+</body>
+</html>
